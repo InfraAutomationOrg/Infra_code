@@ -6,13 +6,6 @@
 
 # अगर चाहो तो Hindi version या informal version भी बना सकता हूँ।
 
-# story added in main parent module
-# 🚫 Direct push to main branch is now restricted.
-# ✅ All changes must go through a Pull Request (PR).
-# 🔍 At least 1 approval is required before merging.
-# 🛡️ This ensures safer and review-based collaboration.
-
-# अगर चाहो तो Hindi version या informal version भी बना सकता हूँ।
 module "rg_mod" {
   source   = "../child_module/azurerm_rg"
   rg_name  = "Anjali-todo-rg"

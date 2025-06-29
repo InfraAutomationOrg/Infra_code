@@ -11,6 +11,12 @@ module "rg_mod" {
   rg_name  = "Anjali-todo-rg"
   location = "West US"
 }
+
+module "rg_mod1" {
+  source   = "../child_module/azurerm_rg"
+  rg_name  = "Anjali-todo-rg1"
+  location = "West US"
+}
 module "vnet_mod" {
   depends_on    = [module.rg_mod]
   source        = "../child_module/azurerm_vnet"

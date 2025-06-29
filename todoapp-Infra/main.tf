@@ -12,6 +12,7 @@ module "rg_mod" {
   location = "West US"
 }
 
+#adding New rg2
 module "rg_mod1" {
   source   = "../child_module/azurerm_rg"
   rg_name  = "Anjali-todo-rg1"
